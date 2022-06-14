@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+}
+.cover{
+    height :200px;
+    background-color: blue;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(https://pub-static.fotor.com/assets/projects/pages/e10ebe51e97146d88ca61ac7d50a81e7/be-relaxed-1b60511a54534754b27d78a22e7c0fcd.jpg);
+   
+}
+
+.why-us{
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.button{
+    background-color: #2094E6;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 35px;
+    padding: 8px, 24px, 8px, 24px;
+    font: Work Sans;
+}
+
+.hidden{
+    display: none;
+}
+
+.member{
+ border-radius: 10px;
+ height: 220px;
+ transition: 0.3s;
+
+ &:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+    transform: translateY(-3px);
+ }
+ 
+
+ }
+ .member-img{
+     height: 150px;
+     background-color: #2094E6;
+ }
+
+
+     
+ 
+.photo{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-image: url(https://media.istockphoto.com/photos/diverse-business-people-putting-their-hands-together-in-cirle-picture-id1322842973?k=20&m=1322842973&s=612x612&w=0&h=uqzHjSYi-alYRvCRXdB4PyN9NDAQrZHIExtPWTEGP3I=);
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+ 

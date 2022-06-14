@@ -1,0 +1,78 @@
+<div class="container-fluid">
+
+  <div class="row cover-row">
+    <div class="col-12">
+      <div class="cover">
+      
+    </div>
+  </div>
+
+    <div class="container xl-m-5 p-5">
+
+      <div class="row d-flex justify-content-evenly">
+        <div class="col-6 df why-us mt-5 pt-5">
+            <div class="col-md-6 text">
+              <h2>Explore world with us</h2>
+              <p>Discover Albania, with its stunning natural scenery and wealth of history. Our Albania holidays are packed with exciting adventures like cycling in the mountains and exploring archaeological sites. And to unwind, what would be better than relaxing in a cafe on the shores of Albania Riviera?
+                <br>
+                
+                <button class="button mt-3" data-bs-toggle="collapse" href="#collapseTeam" role="button" aria-expanded="false" aria-controls="collapseExample" >Team</button>
+              </p>
+            </div>        
+        </div>
+        <div class="col-5 mt-5 pt-5 d-flex justify-content-end photo"></div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+
+<div class="card-group col-sm-3 m-3 member collapse" id="collapseTeam" *ngFor="let member of team">
+  <div class="card">
+    <!-- <div class="member-description col-12 text-center  position-absolute">{{member.description}}</div> -->
+    <div class="member-img"></div> 
+    <div class="card-body ">
+      <div class="card-title member-name text-center"><h3>{{member.name}}</h3></div>
+      <div class="member-position text-center"><h3>{{member.position}}</h3></div>
+    </div>
+</div>
+
+    </div>
+   <div class="row">
+     <div class="col-12 d-flex justify-content-center mt-5">
+       <h1>Why to join us</h1>
+     </div>
+
+     <div class="row  mt-5 pt-5">
+      <div class="d-flex justify-content-between col-12">
+
+        <div class="col-3 text-center"><h3>Flexibility</h3>
+        <br>
+        <i class="fa-solid fa-shuffle"></i>
+      </div>
+        <div class="col-3 text-center">Well paid</div>
+        <div class="col-3 text-center">Comfort work place</div>
+      </div>
+
+      <div class="row mt-5 pt-5">
+        <div class="col-12" style="background-color:  rgba(16, 99, 184, 0.55)">
+          <div class="row m-5 p-5 text-center"> <h1>Numbers speaks louder</h1>
+            <div class="row">
+              <div class="d-flex justify-content-center col-12">
+      
+                <div class="col-2 text-center" style="border-right:1px solid  blue ;" ><h1>125</h1> <p class="text-wrap" >Service Geoghrapics</p></div>
+                <div class="col-2 text-center" style="border-right:1px solid  blue ;"><h1>10K</h1> <p class="text-wrap">Succesful Trips</p></div>
+                <div class="col-2 text-center" style="border-right:1px solid  blue ;"><h1>1000</h1> <p class="text-wrap">Happy Costumers</p></div>
+                <div class="col-2 text-center"><h1>5000</h1> <p class="text-wrap">Positive Reviews</p></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+  
+</div>
+
+<i class="fa fa-american-sign-language-interpreting fa-5x" aria-hidden="true"> </i>
